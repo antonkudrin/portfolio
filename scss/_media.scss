@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1800px) {
+   body{
+       font-size: 180%;
+   }
+   footer.footer{
+       p{
+           font-size: 1em;
+       }
+       h1{
+           font-size: 1.8em;
+       }
+   }
+}
+
+@media only screen and (max-width: 1050px) {
+    footer.footer {
+       padding: 5% 4%;
+       .contact .social {
+        width: 85%;
+    }
+   }
+
+   footer.footer > * {
+    width: 30%;
+ }
+}
+
+@media only screen and (max-width: 770px) {
+    body {
+        font-size: 80%;
+        
+        .contact .social {
+            width: 95%;
+        }
+    }
+
+    footer.footer {
+        padding: 5% 3%;
+    }
+
+    footer.footer > * {
+        width: 30%;
+     }
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        font-size: 65%;
+    }
+
+    .portfolio .portfolio-card{
+        width: 100%;
+        padding: 20px 15px;
+        .card-subtitle {
+            font-size: 1.5em;
+        }
+    }
+
+    footer.footer > * {
+        width: 75%;
+        padding-bottom: 25px;
+     }
+
+}
