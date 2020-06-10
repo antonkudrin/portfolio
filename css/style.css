@@ -342,8 +342,8 @@ a:hover {
   background: black;
   color: #fff;
   opacity: 0.4;
-  -webkit-transition: all 0.5s ease, padding .0S;
-  transition: all 0.5s ease, padding .0S;
+  -webkit-transition: all 0.5s ease, padding 0s;
+  transition: all 0.5s ease, padding 0s;
 }
 
 .back__link:hover {

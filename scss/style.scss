@@ -235,7 +235,7 @@ a:hover {
   color: #7e9ec9;
   margin-top: 30px;
 }
-.mPS2id-highlight{
+.mPS2id-highlight {
   max-height: 0;
   overflow: hidden;
   padding: 0 !important;
@@ -245,14 +245,13 @@ a:hover {
   position: fixed;
   bottom: 0;
   right: 8.5%;
-  
-  
+
   padding: 0.4% 1.2%;
   background: rgb(0, 0, 0);
   color: #fff;
-  
+
   opacity: 0.4;
-  transition: all 0.5s ease, padding .0S;
+  transition: all 0.5s ease, padding 0s;
 }
 .back__link:hover {
   opacity: 1;
@@ -262,5 +261,3 @@ i.back__icon::before {
   margin: 0;
   font-size: 1.5em;
 }
-
-
