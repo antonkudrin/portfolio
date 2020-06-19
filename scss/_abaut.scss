@@ -1,0 +1,30 @@
+// .about {
+// }
+
+.about__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  flex-wrap: wrap;
+
+  & > * {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  &:nth-child(2n + 1) {
+    flex-wrap: wrap-reverse;
+    & > :nth-child(1) {
+      order: 2;
+    }
+  }
+}
+
+// .abaut__aside {
+// }
+.title__image {
+  border: 1vw solid white;
+  box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+  img {
+    width: 100%;
+  }
+}
