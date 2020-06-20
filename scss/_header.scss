@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56vw;
+    position: relative;
+
+    & .header__arrow::before {
+        color: #ffffff;
+        font-size: 28px;
+        margin: 0 auto;
+        transition: all 0.3s linear;
+    }
+
+    & .header__arrow:hover::before {
+        font-size: 40px;
+        color: #0ff;
+    }
+}
+
+.header__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background-image: url(./../video/Codes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.692);
+
+    z-index: -3;
+}
+
+.header__avatar {
+    position: absolute;
+    top: 9%;
+    margin: auto;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 12vw;
+    img {
+        width: 100%;
+    }
+}
+
+.header-title {
+    margin: 0;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 1.3;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header__link {
+    position: absolute;
+    bottom: 12%;
+    display: block;
+    text-align: center;
+    width: 50px;
+}

@@ -1,5 +1,5 @@
-// .about {
-// }
+.about {
+}
 
 .about__row {
   display: flex;
@@ -19,9 +19,22 @@
   }
 }
 
+.about__title{
+  font-weight: 600;
+    font-size: 1.3em;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.about__subtitle{
+  font-size: 1em;
+  line-height: 1.5;
+  color: #000000;
+}
+
 // .abaut__aside {
 // }
-.title__image {
+.about__image {
   border: 1vw solid white;
   box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
   img {
