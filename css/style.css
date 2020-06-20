@@ -188,6 +188,20 @@
   color: #000000;
 }
 
+.about__subtitle mark {
+  background-color: #66a5e433;
+  border-radius: 5px;
+}
+
+.about__subtitle a {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.about__subtitle a:hover {
+  color: aqua;
+}
+
 .about__image {
   border: 1vw solid white;
   -webkit-box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
@@ -429,6 +443,13 @@ a:hover {
 
 .title::after {
   right: 0;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  margin-left: 0 !important;
 }
 
 section {
