@@ -152,9 +152,9 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -194,8 +194,8 @@
 }
 
 .about__subtitle a {
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .about__subtitle a:hover {
@@ -348,6 +348,7 @@
   font-size: 1em;
   line-height: 130%;
   text-transform: uppercase;
+  white-space: nowrap;
   color: #ffffff;
   padding: 5%;
   -webkit-transition: all 0.5s;

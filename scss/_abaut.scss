@@ -5,7 +5,7 @@
 .about__row {
   display: flex;
   justify-content: space-around;
-  align-items: end;
+  align-items: start;
   flex-wrap: wrap;
 
   & > * {
@@ -20,25 +20,25 @@
   }
 }
 
-.about__title{
+.about__title {
   font-weight: 600;
-    font-size: 1.3em;
-    line-height: 1.5;
-    color: #000000;
+  font-size: 1.3em;
+  line-height: 1.5;
+  color: #000000;
 }
 
-.about__subtitle{
+.about__subtitle {
   font-size: 1em;
   line-height: 1.5;
   color: #000000;
-  mark{
+  mark {
     background-color: #66a5e433;
     border-radius: 5px;
   }
-  & a{
-    transition: .3s;
+  & a {
+    transition: 0.3s;
   }
-  & a:hover{
+  & a:hover {
     color: aqua;
   }
 }
